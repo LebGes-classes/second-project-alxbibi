@@ -1,0 +1,16 @@
+[
+    {
+        "id": "T-001",
+        "name": "Ноутбук",
+        "cost": 50000,
+        "available": 999,
+        "provider": "Dell"
+    },
+    {
+        "id": "T-002",
+        "name": "Мышь",
+        "cost": 1500,
+        "available": 18790,
+        "provider": "Logitech"
+    }
+]

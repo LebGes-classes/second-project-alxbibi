@@ -1,0 +1,82 @@
+{
+    "profit": "0.00",
+    "employees": {
+        "р1": {
+            "id": "р1",
+            "name": "Боб",
+            "role": "разнорабочий",
+            "salary": "100"
+        }
+    },
+    "warehouses": {
+        "с1": {
+            "id": "с1",
+            "name": "Парина ",
+            "address": "Парина 21",
+            "responsible_id": "р1",
+            "cells": {
+                "Cell-T-002": {
+                    "cell_id": "Cell-T-002",
+                    "products": [
+                        {
+                            "id": "T-002",
+                            "name": "Мышь",
+                            "count": 10,
+                            "state": "None",
+                            "provider": "None",
+                            "manufacturer": "None",
+                            "cost": "1500",
+                            "location": "None",
+                            "city": "None"
+                        },
+                        {
+                            "id": "T-002",
+                            "name": "Мышь",
+                            "count": 70,
+                            "state": "None",
+                            "provider": "None",
+                            "manufacturer": "None",
+                            "cost": "1500",
+                            "location": "None",
+                            "city": "None"
+                        },
+                        {
+                            "id": "T-002",
+                            "name": "Мышь",
+                            "count": 0,
+                            "state": "None",
+                            "provider": "None",
+                            "manufacturer": "None",
+                            "cost": "1500",
+                            "location": "None",
+                            "city": "None"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "pos": {
+        "м1": {
+            "id": "м1",
+            "name": "Парина",
+            "address": "Парина 22",
+            "balance": "400000.00",
+            "responsible_id": "None",
+            "inventory": [
+                {
+                    "id": "T-002",
+                    "name": "Мышь",
+                    "count": 90,
+                    "state": "None",
+                    "provider": "None",
+                    "manufacturer": "None",
+                    "cost": "1500",
+                    "location": "None",
+                    "city": "None"
+                }
+            ]
+        }
+    },
+    "orders": {}
+}
